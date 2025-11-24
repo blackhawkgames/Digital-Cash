@@ -26,3 +26,10 @@ The BankServer.py, CustomerModule.py and MerchantServer.py modules are run. Can 
 The UnusedMO.txt file holds the digital cash singed by the bank to be spent. The amount is displayed before the '-*-*-' string. The topmost MO is sent to the merchant always.
 
 The UsedMO.txt file holds the digital cash already sent out the merchant.(To check double spending detection, place one of the digital cash from this folder as the top element of the UnusedMO.txt and send the MO over. The transaction will not pass. The bank would raise 'MO already spent' message)
+
+
+## Testing - Digital Cash
+
+  git add .
+  git commit -m "Versão testada do experimento Digital Cash (UTFPR)"
+  git push origin main
